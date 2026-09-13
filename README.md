@@ -1,32 +1,54 @@
-# React + TypeScript + Vite
+🌐 Live Demo
+🔗 Live Website:
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+============================
+🚀 DevStack
 
-Currently, two official plugins are available:
+DevStack was built as a React project to practice component-based development, state management, reusable components, responsive design, and working with local JSON data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+============================
+✨ Features
 
-## React Compiler
+1. 🔍 Explore Technologies
+2. 📚 View Technology Details
+3. 🧩 Build Your Own Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+=============================
+🛠️ Technologies Used
 
-## Expanding the Oxlint configuration
+1. React.js — Building the user interface
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+2. TypeScript — Type-safe JavaScript development
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+3. Tailwind CSS — Styling and responsive design
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+4. React Icons — Icons throughout the application
+
+5. React Hooks — Managing state and side effects
+
+=============================
+⚛️ React Questions & Answers
+
+1. What is JSX, and why is it used in React?
+   JSX is a syntax that lets us write HTML-like code inside JavaScript or TypeScript. React uses JSX because it makes UI code easier to read and allows us to write the structure and logic of a component together.
+
+2. What is the difference between props and state?
+   Props is Data coming into a component
+   State is Data managed by the component
+
+3. What does the useState hook do, and where did you use it in this project?
+   The useState hook lets us create and manage changing data inside a React component.
+
+4. What does the useEffect hook do, and why did you need it to load the JSON data?
+   The useEffect hook is used to run code after a component renders or when specific data changes.
+
+5. Why does every item in a .map() list need a unique key prop?
+   It helps React understand which items were added, removed, or changed, so it can update the UI more efficiently.
+
+6. What is conditional rendering? Show one place you used it.
+   Conditional rendering means showing different UI elements depending on a condition.
+
+7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
+   A parent component passes data to a child using props.
+
+⭐ Thanks for visiting DevStack!
